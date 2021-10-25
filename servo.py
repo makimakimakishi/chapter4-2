@@ -14,6 +14,6 @@ print(set_degree)
 s=95*set_degree
 v=s/1800
 c=v+7.25
-printf(c)
+print(c)
 servo.ChangeDutyCycle(c)
     
