@@ -10,9 +10,10 @@ middle = 7.25 #   0deg : 1.45ms / 20ms = 7.25[%]
 top = 12.0    #  90deg : 2.4ms / 20ms = 12.0[%]
 param = sys.argv
 set_degree =int(param[1])
-print(set_degree)
+print(set_degree\n)
 s=95*set_degree
 v=s/1800
 c=v+7.25
+printf(c)
 servo.ChangeDutyCycle(c)
     
