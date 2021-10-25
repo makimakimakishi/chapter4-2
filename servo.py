@@ -11,5 +11,8 @@ top = 12.0    #  90deg : 2.4ms / 20ms = 12.0[%]
 param = sys.argv
 set_degree =int(param[1])
 print(set_degree)
-servo.ChangeDutyCycle(95*set_degree/1800+7.25)
+s=95*set_degree
+v=s/1800
+c=v+7.25
+servo.ChangeDutyCycle(c)
     
