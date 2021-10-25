@@ -1,3 +1,4 @@
+import wiringpi
 import time
 import RPi.GPIO as GPIO
 import sys
