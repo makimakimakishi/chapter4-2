@@ -14,14 +14,10 @@ print(set_degree)
 s=95*set_degree
 v=s/1800
 c=v+7.25
-print(c)
 servo.ChangeDutyCycle(c)
 for i in range(5):
 	servo.ChangeDutyCycle(bottom)
 	time.sleep(1.0)
 
 	servo.ChangeDutyCycle(c)
-	time.sleep(1.0)
-
-	servo.ChangeDutyCycle(top)
 	time.sleep(1.0)
