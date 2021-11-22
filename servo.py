@@ -12,7 +12,7 @@ param = sys.argv
 set_degree =int(param[1])
 setservo(setdegree)
 
-def setservo(setdegree)
+def setservo(setdegree):
     print(set_degree)
     s=95*set_degree
     v=s/1800
