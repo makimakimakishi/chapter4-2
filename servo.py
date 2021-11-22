@@ -26,3 +26,4 @@ def setservo(set_degree):
 
 setservo(set_degree)
 
+GPIO.cleanup()
